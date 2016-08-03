@@ -1,0 +1,12 @@
+OASISFormat: 0.4
+Name:        Pure
+Version:     1.0.0
+Synopsis:    bla bla
+Authors:     VKI
+License:     GPL
+
+Executable bench
+  Path:       src
+  BuildTools: ocamlbuild
+  MainIs:     freq.ml
+  BuildDepends: core, threads
